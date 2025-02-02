@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilo.css">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <div class="header">
+      <img src="./IMG/agenda.png" alt="Uma agenda png">
+      <h1>Projeto módulo 8 EBAC</h1>
+    </div>
+  </header>
+  <div class="container">
+    <main>
+      <form id="form">
+        <div class="container-dados">
+          <fieldset>
+            <legend>Contatos</legend>
+            <div class="labels">
+              <label for="nome">Nome:</label>
+              <input id="nome" type="text" required><br>
+            </div>
+            <div class="labels">
+              <label for="telefone">Telefone:</label>
+              <input id="telefone" type="number" required>
+            </div>
+          </fieldset>
+        </div>
+        <div class="container2">
+          <div class="container-botao">
+            <button id="btnEnviar" type="submit">Add</button>
+          </div>
+          <div class="container-auxilio">
+            <h3>Add outro telefone?</h3>
+            <button id="btnMaisContatos" type="submit">Sim</button>
+            <p><span class="corVernelho">*</span>(Caso usuário tenha mais de um contato)</p>
+          </div>
+        </div>
+      </form>
+      <div class="divTable">
+        <table cellspacing="0">
+          <thead>
+            <tr>
+              <th>NOME</th>
+              <th>TELEFONE</th>
+            </tr>
+          </thead>
+          <tbody>
+          </tbody>
+          <tfoot>
+          </tfoot>
+        </table>
+      </div>
+    </main>
+  </div>
+  <footer id="footer">
+  </footer>
+  <script src="./interacao.js"></script>
+</body>
+</html>
