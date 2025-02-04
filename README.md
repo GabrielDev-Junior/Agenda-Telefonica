@@ -7,5 +7,5 @@
 </div>
 
 <div align="center">
-  <img src="./IMG/Agenda (2).png" width="800" />
+  <img src="./IMG/PjAgenda.png" width="800" />
 </div>
