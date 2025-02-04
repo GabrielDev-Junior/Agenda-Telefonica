@@ -68,9 +68,43 @@ body{
   input{
     padding-left: 3px;
     height: 23px;
-    margin-bottom: 3px;
+    margin-bottom: 8px;
     border-radius: 5px;
     width: 180px;
+    border: none;
+  }
+  .nao-aceito{
+    font-size: 9px;
+    background-color: rgb(233, 17, 17);
+    color: white;
+    padding: 3px;
+    border-radius: 10px;
+    width: 180px;
+    text-align: center;
+    margin-left: 103px;
+    display: none;
+  }
+  .aceitavel{
+    font-size: 9px;
+    background-color: rgb(210, 213, 34);
+    color: black;
+    padding: 3px;
+    border-radius: 10px;
+    width: 180px;
+    text-align: center;
+    margin-left: 103px;
+    display: none;
+  }
+  .bem-aceito{
+    font-size: 9px;
+    background-color: rgb(25, 116, 48);
+    color: white;
+    padding: 3px;
+    border-radius: 10px;
+    width: 180px;
+    text-align: center;
+    margin-left: 103px;
+    display: none;
   }
 }
 .container2{
